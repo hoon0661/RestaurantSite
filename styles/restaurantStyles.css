@@ -1,0 +1,45 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f7f7f7;
+  color: #121111;
+}
+
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 150px;
+}
+
+.text-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tag-margin {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+}
+
+#carouselIndicators,
+#mainMenu {
+  margin: 20px auto;
+}
+
+tr:nth-child(odd) {
+  background-color: #f5f3f0;
+}
+
+tr:nth-child(even) {
+  background-color: #dbdbd9;
+}
